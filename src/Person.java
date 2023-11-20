@@ -2,6 +2,7 @@ class Person {
     protected   String name;
     protected String[] nickname;
     protected int age;
+    public static int number;
 
     public Person(){}
 
@@ -22,19 +23,19 @@ class Person {
     public String getNickname(){
         return this.nickname[0] + " " + this.nickname[1];
     }
-
     public void setNickname(String[] nickname) {
         this.nickname = nickname;
     }
-
     public void setAge(int age) {
         this.age = age;
     }
-
     public int getAge() {
         return age;
     }
     public void run(){
         System.out.println("Person.run");
+    }
+    public static void setNumber(int value){
+        number = value;
     }
 }

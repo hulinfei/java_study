@@ -15,5 +15,13 @@ public class TestPerson {
         Person p = new Person("Hu", 18);
         System.out.println(p.getName());
         System.out.println(p.getAge());
+        Person ming = new Person("xiaoming", 12);
+        Person hong = new Person("xiaohong", 13);
+        ming.number = 88;
+        System.out.println(hong.number);
+        hong.number = 99;
+        System.out.println(ming.number);
+        Person.setNumber(100);
+        System.out.println(Person.number);
     }
 }

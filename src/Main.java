@@ -4,5 +4,7 @@ public class Main {
         System.out.println("Hello world!");
         Person p = new Student();
         p.run();
+        Hello hl = new Hello();
+        hl.seeHello();
     }
 }

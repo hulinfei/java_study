@@ -12,4 +12,10 @@ class Hello {
             System.out.println("你好啊" + name);
         }
     }
+    public void seeHello(){
+        this.hi();
+    }
+    private void hi(){
+        System.out.println("我说你好");
+    }
 }

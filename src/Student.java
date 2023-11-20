@@ -8,9 +8,8 @@ class Student extends Person{
     public void setScore(int score) {
         this.score = score;
     }
-
     @Override
     public void run() {
-        System.out.println("Sutdent.run");
+        System.out.println("Student.run");
     }
 }
