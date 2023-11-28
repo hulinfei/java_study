@@ -2,6 +2,7 @@ class Person {
     protected   String name;
     protected String[] nickname;
     protected int age;
+    private int high;
     public static int number;
 
     public Person(){}
