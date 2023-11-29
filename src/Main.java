@@ -1,9 +1,5 @@
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 import java.util.HashMap;
-import java.util.List;
-import java.util.HashMap;
-import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
@@ -81,6 +77,23 @@ public class Main {
             Integer value = entry.getValue();
             System.out.println(key);
             System.out.println(value);
+        }
+        Set<String> set = new HashSet<>();
+        set.add("hu");
+        set.add("apple");
+        set.add("wxxx");
+        for (String s7 : set
+             ) {
+            System.out.println(s7);
+        }
+        Set<String> set1 = new TreeSet<>();
+        set1.add("hu");
+        set1.add("apple");
+        set1.add("wee");
+        set1.add("1sdf");
+        for (String s8 : set1
+             ) {
+            System.out.println(s8);
         }
     }
 }
