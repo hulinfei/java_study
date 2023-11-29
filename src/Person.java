@@ -4,6 +4,11 @@ class Person {
     protected int age;
     private int high;
     public static int number;
+    public String lang;
+
+    public String getLang() {
+        return lang;
+    }
 
     public Person(){}
 
@@ -14,6 +19,10 @@ class Person {
     public Person(String name,int age){
         this.name = name;
         this.age = age;
+    }
+    public Person(String name, String lang){
+        this.name = name;
+        this.lang = lang;
     }
     public String getName(){
         return name;
